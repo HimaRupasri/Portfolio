@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFE5E2; /* Light Coral background */
+    color: #6D6875; /* Mauve text */
+}
+
+/* Custom styling for sections */
+section {
+    background-color: #FFF2E9; /* Peach background */
+    padding: 50px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.custom-header-color {
+    background-color: #e58163; /* Salmon Pink header */
+}
+
+.nav-link {
+    color: #3e2555 !important; /* Lavender nav link */
+    font-weight: 700;
+}
+
+.section-title {
+    color: #9974d4; /* Mauve section title */
+}
+
+.card {
+    background-color: #FFD2C4; /* Salmon Pink card background */
+}
+
+.card-title {
+    color: #5b485e; /* Dark Slate Blue card title */
+}
+
+.card-text {
+    color: #4f3a72; /* Mauve card text */
+}
+
+.timeline {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #FFD2C4; /* Salmon Pink timeline color */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.timeline-item {
+    padding: 1rem;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: white;
+    border: 4px solid #FFD2C4; /* Salmon Pink timeline color */
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+}
+
+.timeline-content {
+    padding: 1rem 2rem;
+    background-color: #FFE5E2; /* Light Coral timeline content background */
+    position: relative;
+    border-radius: 6px;
+}
+
+.timeline-title {
+    margin-top: 0;
+    color: #465362; /* Dark Slate Blue timeline title */
+}
+
+.custom {
+    background-color: #fedec7; /* Peach background */
+    color: #6a6670; /* Mauve text */
+}
+
+/* Add custom CSS for footer */
+footer {
+    background-color: #FFD2C4; /* Salmon Pink footer background */
+}
+
+footer p {
+    color: #6D6875; /* Mauve footer text */
+}
